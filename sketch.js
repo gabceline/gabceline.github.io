@@ -49,4 +49,10 @@ function drawStar(x, y, radius, sides, fillColor) {
   push();
   drawStar(0, 0, 50, sc, "cornflowerblue");
   pop();
+
+    // title!
+  fill('ivory');
+  textFont('Lucida Console');
+  text('star', -15, -3);
+  text('clock', -18, 12);
 }
